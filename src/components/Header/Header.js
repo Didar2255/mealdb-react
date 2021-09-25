@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../../Image/icon.png'
 
 const Header = () => {
-    return (
-        <nav className="navbar navbar-expand-lg  bg-dark ">
+  return (
+    <nav className="navbar navbar-expand-lg  bg-dark ">
       <div className="container-fluid ">
-        <a className="navbar-brand text-white" href="/#">MealDB</a>
+        <a className="navbar-brand text-white" href="/#"> <img src={logo} alt="" width="100" height="70" class="d-inline-block align-text-top" />MealDB</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +31,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
-    );
+  );
 };
 
 export default Header;
