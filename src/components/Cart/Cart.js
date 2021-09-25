@@ -7,8 +7,9 @@ const Cart = (props) => {
         foodName.push(food)
     }
     return (
-        <div className='border p-3 shadow'>
-            <h2>Name : {foodName}</h2>
+        <div className='border p-3 shadow bg-light'>
+            <h3 className="text-danger">Your Product :</h3>
+            <p>Name : {foodName}</p>
 
         </div>
     );
